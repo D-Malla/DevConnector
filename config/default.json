@@ -1,3 +1,4 @@
 {
-  "mongoURI": "mongodb+srv://dmalla:element92@devconnector-wasdy.mongodb.net/test?retryWrites=true&w=majority"
+  "mongoURI": "mongodb+srv://dmalla:dmalla123@devconnector-wasdy.mongodb.net/test?retryWrites=true&w=majority",
+  "jwtSecret": "supersecrettoken"
 }
