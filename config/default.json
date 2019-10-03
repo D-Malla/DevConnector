@@ -1,4 +1,6 @@
 {
   "mongoURI": "mongodb+srv://dmalla:dmalla123@devconnector-wasdy.mongodb.net/test?retryWrites=true&w=majority",
-  "jwtSecret": "supersecrettoken"
+  "jwtSecret": "supersecrettoken",
+  "githubClientId": "4c7080ede1b3b022ebe0",
+  "githubSecret": "6229598872b7b955f7dfee35d963a361a1b1e481"
 }

@@ -1,5 +1,6 @@
-const mongoose = require('mongoose')
+const mongoose = require('mongoose');
 
+/* A Schema holds the different fields each resource needs to have. */
 const UserSchema = new mongoose.Schema({
   name: {
     type: String,
@@ -19,9 +20,9 @@ const UserSchema = new mongoose.Schema({
   },
   date: {
     type: Date,
-    default: Date.now
+    default: Date.now /* The ".now" method gives current date & time. */
   }
+});
 
-})
-
-module.exports = User = mongoose.model('user', UserSchema)
+module.exports = User = mongoose.model('user', UserSchema); 
+/* ".model" takes in two parameters: the model name & Schema. */
